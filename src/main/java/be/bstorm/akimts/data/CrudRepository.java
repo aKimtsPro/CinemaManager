@@ -1,10 +1,9 @@
 package be.bstorm.akimts.data;
 
-import java.awt.image.TileObserver;
 import java.util.List;
 import java.util.Optional;
 
-public interface BaseRepository<TENTITY, TID> {
+public interface CrudRepository<TENTITY, TID> extends Repository<TENTITY,TID> {
 
     List<TENTITY> getAll();
 

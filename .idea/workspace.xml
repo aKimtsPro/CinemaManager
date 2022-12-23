@@ -1,14 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="cinema-manager:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="632a17a2-e45b-4c00-86d5-1f7018821cb1" name="Changes" comment="" />
+    <list default="true" id="632a17a2-e45b-4c00-86d5-1f7018821cb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/InfoListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cinema_manager_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cinema_manager_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/load_structure.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/load_structure.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/CrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/CrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/FilmRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/FilmRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/HoraireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/HoraireRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/ProjectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/ProjectionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/ReservationRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/SalleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/SalleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/UtilisateurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/UtilisateurRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/DataConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/DataConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/FilmDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/FilmDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/HoraireDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/HoraireDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/ProjectionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/ProjectionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/ReservationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/ReservationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/SalleDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/SalleDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/UtilisateurDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/impl/UtilisateurDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/utils/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/data/utils/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/exceptions/BadCredentialsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/exceptions/BadCredentialsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/dto/ReservationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/dto/ReservationDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/dto/UtilisateurDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/dto/UtilisateurDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Cinema.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Cinema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Film.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Film.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Projection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Projection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Realisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Realisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Salle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Salle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/entities/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/form/ReservationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/models/form/ReservationForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/impl/AuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/impl/ReservationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/impl/ReservationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/auth/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/auth/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/auth/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/auth/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/film/GetAllServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/film/GetAllServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/film/GetOneServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/film/GetOneServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/projection/ProjCreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/projection/ProjCreateServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/reservation/ReservationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/bstorm/akimts/servlet/reservation/ReservationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/META-INF/context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/auth/connexion.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/auth/connexion.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/film/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/film/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/film/one.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/film/one.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/script.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/script.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/style.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/parts/style.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/reserv/my_reserv.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/reserv/my_reserv.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/reserv/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/reserv/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/assets/js/hide_form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/assets/js/hide_form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/web/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,19 +103,176 @@
     </option>
   </component>
   <component name="ProjectId" id="2J9GzEuyKldCh7vsWAnFJ0YhqgC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/akimt/IdeaProjects/CinemaManager/src/main/web&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;,
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;TSQL&quot;
+    ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager\src\main\web\assets\js" />
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager\src\main\web\assets\css" />
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager\src\main" />
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager" />
+      <recent name="C:\Users\akimt\IdeaProjects\CinemaManager\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 10.0.27">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="be.bstorm.akimts.Main" />
+      <module name="cinema-manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.bstorm.akimts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="cinema-manager:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/cinema" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="97208c63-82b3-4e47-a4d5-c622a6494168" />
+      </server-settings>
+      <log_file alias="Tomcat Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/manager.*" />
+      <log_file alias="Tomcat Host Manager Log" path="%IDEA_RUN:CATALINA_BASE%/logs/host-manager.*" />
+      <log_file alias="Tomcat Localhost Access Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost_access_log.*" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57436" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="cinema-manager:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Tomcat Server.Tomcat 10.0.27" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,7 +281,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671483147879</updated>
+      <workItem from="1671483149111" duration="10662000" />
+      <workItem from="1671493839539" duration="5551000" />
+      <workItem from="1671524719234" duration="3674000" />
+      <workItem from="1671528657048" duration="23979000" />
+      <workItem from="1671618585468" duration="121000" />
+      <workItem from="1671627550988" duration="10891000" />
+      <workItem from="1671710137106" duration="933000" />
+      <workItem from="1671713842361" duration="1112000" />
+      <workItem from="1671715816565" duration="625000" />
+      <workItem from="1671784738634" duration="1018000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/bstorm/akimts/service/impl/ReservationServiceImpl.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

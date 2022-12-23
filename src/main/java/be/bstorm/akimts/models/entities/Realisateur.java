@@ -1,4 +1,4 @@
-package be.bstorm.akimts.models;
+package be.bstorm.akimts.models.entities;
 
 public class Realisateur {
 

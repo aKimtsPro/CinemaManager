@@ -3,13 +3,13 @@
 USE cinema_manager;
 
 CREATE TABLE cinema (
-                        id INTEGER IDENTITY PRIMARY KEY,
-                        nom VARCHAR(50) NOT NULL,
-                        adresse_rue VARCHAR(50) NOT NULL,
-                        adresse_numero INTEGER NOT NULL,
-                        adresse_ville VARCHAR(50) NOT NULL,
-                        adresse_cp INTEGER NOT NULL,
-                        telephone VARCHAR(50),
+    id INTEGER IDENTITY PRIMARY KEY,
+    nom VARCHAR(50) NOT NULL,
+    adresse_rue VARCHAR(50) NOT NULL,
+    adresse_numero INTEGER NOT NULL,
+    adresse_ville VARCHAR(50) NOT NULL,
+    adresse_cp INTEGER NOT NULL,
+    telephone VARCHAR(50),
 );
 
 
@@ -20,25 +20,25 @@ CREATE TABLE equipement (
 );
 
 CREATE TABLE salle (
-                       id INTEGER IDENTITY PRIMARY KEY,
-                       numero INTEGER NOT NULL,
-                       capacite INTEGER NOT NULL CHECK (capacite > 0),
-                       cinema_id INTEGER NOT NULL,
-                       CONSTRAINT FK_salle_cinema FOREIGN KEY (cinema_id) REFERENCES cinema(id)
+    id INTEGER IDENTITY PRIMARY KEY,
+    numero INTEGER NOT NULL,
+    capacite INTEGER NOT NULL CHECK (capacite > 0),
+    cinema_id INTEGER NOT NULL,
+    CONSTRAINT FK_salle_cinema FOREIGN KEY (cinema_id) REFERENCES cinema(id)
 );
 
 CREATE TABLE salle_equipement (
-                                  equipement_id INTEGER NOT NULL,
-                                  salle_id INTEGER NOT NULL,
-                                  CONSTRAINT PK_salle_equipement PRIMARY KEY (equipement_id, salle_id),
-                                  CONSTRAINT FK_salle_equipement_equipement FOREIGN KEY (equipement_id) REFERENCES equipement(id),
-                                  CONSTRAINT FK_salle_equipement_salle FOREIGN KEY (salle_id) REFERENCES salle(id)
+    equipement_id INTEGER NOT NULL,
+    salle_id INTEGER NOT NULL,
+    CONSTRAINT PK_salle_equipement PRIMARY KEY (equipement_id, salle_id),
+    CONSTRAINT FK_salle_equipement_equipement FOREIGN KEY (equipement_id) REFERENCES equipement(id),
+    CONSTRAINT FK_salle_equipement_salle FOREIGN KEY (salle_id) REFERENCES salle(id)
 );
 
 CREATE TABLE genre (
-                       id INTEGER IDENTITY PRIMARY KEY,
-                       nom VARCHAR(50) NOT NULL,
-                       "description" VARCHAR(50)
+    id INTEGER IDENTITY PRIMARY KEY,
+    nom VARCHAR(50) NOT NULL,
+    "description" VARCHAR(50)
 );
 
 CREATE TABLE realisateur (

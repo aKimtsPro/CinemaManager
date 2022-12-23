@@ -1,2 +1,4 @@
-package be.bstorm.akimts.data;public interface BaseRepository {
+package be.bstorm.akimts.data;
+
+public interface Repository<TENTITY, TID> {
 }

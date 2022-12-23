@@ -1,15 +1,14 @@
-package be.bstorm.akimts.servlet;
+package be.bstorm.akimts.servlet.film;
 
 import be.bstorm.akimts.data.impl.FilmDAO;
-import jakarta.inject.Inject;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "FilmServlet", value = "/film")
-public class FilmServlet extends HttpServlet {
+@WebServlet(name = "GetAllServlet", value = "/films")
+public class GetAllServlet extends HttpServlet {
 
     private final FilmDAO filmDAO = FilmDAO.getInstance();
 

@@ -8,14 +8,14 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "ConnectionServlet", value = "/login")
-public class ConnectionServlet extends HttpServlet {
+@WebServlet(name = "LoginServlet", value = "/login")
+public class LoginServlet extends HttpServlet {
 
     private final AuthServiceImpl authService = AuthServiceImpl.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        HttpSession session = request.getSession(false);
+        HttpSession session = request.getSession();
         if( session.getAttribute("username") != null ){
             response.sendError(403, "déjà connecté");
         }
@@ -34,11 +34,12 @@ public class ConnectionServlet extends HttpServlet {
             String username = request.getParameter("username");
             String password = request.getParameter("password");
             if( authService.validateCredentials(username, password) ) {
-                session = request.getSession(true);
+                session = request.getSession();
                 UtilisateurDTO dto = authService.findByUsername(username)
                         .orElseThrow();
                 session.setAttribute( "username", username );
                 session.setAttribute( "role", dto.getRole() );
+                session.setAttribute( "user_id", dto.getId() );
                 System.out.println("connecté");
             }
             response.sendRedirect( request.getContextPath() );

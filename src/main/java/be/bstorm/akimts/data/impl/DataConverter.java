@@ -1,4 +1,4 @@
-package be.bstorm.akimts.data.utils;
+package be.bstorm.akimts.data.impl;
 
 import be.bstorm.akimts.models.entities.*;
 
@@ -60,5 +60,54 @@ public class DataConverter {
         projection.setSalle( salle );
 
         return projection;
+    }
+
+    static Salle convertSalle(ResultSet rs) throws SQLException {
+        Salle salle = new Salle();
+
+        salle.setId( rs.getLong("salle_id") );
+        salle.setCapacite( rs.getInt("capacite") );
+        salle.setNumero( rs.getInt("numero") );
+
+        Cinema cinema = new Cinema();
+
+        cinema.setId( rs.getLong("cinema_id") );
+        cinema.setNom( rs.getString("cinema_nom") );
+        cinema.setAdresseRue( rs.getString("cinema_rue") );
+        cinema.setAdresseNumero( rs.getInt("cinema_numero") );
+        cinema.setAdresseVille( rs.getString("cinema_ville") );
+        cinema.setAdresseCP( rs.getInt("cinema_cp") );
+        cinema.setTelephone( rs.getString("cinema_telephone") );
+
+        salle.setCinema( cinema );
+
+        return salle;
+    }
+
+    static Utilisateur convertUtilisateur(ResultSet rs) throws SQLException {
+        Utilisateur utilisateur = new Utilisateur();
+
+        utilisateur.setId( rs.getLong( "id" ) );
+        utilisateur.setUsername( rs.getString( "username" ) );
+        utilisateur.setPassword( rs.getString("password") );
+        utilisateur.setPrenom( rs.getString("prenom") );
+        utilisateur.setNom( rs.getString("nom") );
+        utilisateur.setEmail( rs.getString("email") );
+        utilisateur.setTelephone( rs.getString("telephone") );
+        utilisateur.setRole( rs.getString("role") );
+
+        return utilisateur;
+    }
+
+    static Reservation convertReservation(ResultSet rs) throws SQLException {
+        Reservation reservation = new Reservation();
+
+        reservation.setId( rs.getLong("id") );
+        reservation.setPrix( rs.getDouble("prix") );
+        reservation.setTypeTicket( rs.getString("type_ticket") );
+        reservation.setProjectionId( rs.getLong("projection_id") );
+        reservation.setUtilisateurId( rs.getLong("utilisateur_id") );
+
+        return reservation;
     }
 }
